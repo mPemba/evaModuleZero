@@ -1,0 +1,42 @@
+body {
+  background-image: url( './IMG_1495\ copy.jpg') ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+  width: 100%;
+  font-size: 9em;
+  color: #ffffff;
+  
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  max-width: 450px;
+  height: 65px;
+  font-size: 25px;
+  color:white;
+  background-color: transparent; 
+  border: none;
+}
+
+.button:hover {
+  background-color: rgb(102, 169, 211)
+}
+
+.dogInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+}
